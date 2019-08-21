@@ -12,9 +12,9 @@ Golang轻量级web框架
 7.Mserver包中的PraseWebsocket是对websocket连接的解析（有问题，导致连接一直在pending状态，找到后改进）  
   
 实现的基本功能：  
- 1.取GET的RestFul风格参数  
- 2.取GET动态路由的参数  
- 3.取POST的表单参数  
+ 1.取GET的RestFul风格参数，比如/test?name=&age=20，可设置默认值  
+ 2.取GET动态路由的参数，比如/user/age/:name  
+ 3.取POST的表单参数，可设置默认值  
  4.websocket的发送和接收消息（ws连接还有些问题，找出问题后以后更改）  
   
 代码示例 
