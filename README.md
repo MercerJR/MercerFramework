@@ -7,8 +7,9 @@ Golang轻量级web框架
 2.Mserver包中的Mrouter是路由的存放和调用等功能  
 3.Mserver包中的Mcontext是对请求上下文的处理  
 4.Mserver包中的Mmatcher是对参数进行匹配的各种发方法  
-5.Mserver包中的Mwebsocket是对websocket功能的实现方法以及上下文  
-6.Mserver包中的PraseWebsocket是对websocket连接的解析（有问题，导致连接一直在pending状态，找到后改进）  
+5.Mserver包中的Mserver是对接收请求的处理  
+6.Mserver包中的Mwebsocket是对websocket功能的实现方法以及上下文  
+7.Mserver包中的PraseWebsocket是对websocket连接的解析（有问题，导致连接一直在pending状态，找到后改进）  
   
 实现的基本功能：  
  1.取GET的RestFul风格参数  
